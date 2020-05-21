@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.f_family{
+  font-family: 'Noto Serif', serif;
+}
+  body{
+    background-image:
+    linear-gradient(
+      to right, 
+      #F1FAEE,
+      #F1FAEE 30%,
+      #ef8453 30%,
+      #ef8453 99%,
+      #4f5d75 99%
+      );
+      
+
+}
+
+a:link {
+  text-decoration: none;
+  }
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+.links_top{
+  font-size: 22px;
+  position: relative;
+  left: 350px;
+  width: 800px;
+  background-color: transparent;
+  padding: 10px;
+  border: #F1FAEE ;
+  border-style: outset;
+  border-radius: 10px;
+  margin: 10px 80px 20px 500px;
+}
+.link_distance{
+  padding: 10px;
+  margin: 10px;
+}
+
+h1{
+  font-size: 65px;
+  position: relative;
+  left: 100px;
+  top: 200px;
+}
+q{
+  font-size: 20px;
+  font-style: italic;
+  position: relative;
+  left: 50px;
+  top: 275px;
+}
+
+#div_contents{
+  text-align: left;
+  font-size: 18px;
+  width: 700px;
+  position: relative;
+  left: 850px;
+  top: 70px;
+  }
+.links_bottom{
+  font-size: 16px;
+  position: relative;
+  top: 110px;
+  left: 400px;
+  width: 600px;
+  background-color: transparent;
+  padding: 10px;
+  border: #ef8453;
+  border-style: outset;
+  border-radius: 5px;
+  margin: 10px 80px 20px 500px;
+}
