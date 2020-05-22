@@ -1,108 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
-body{
-    font-family: 'Noto Serif', serif;
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+
+
+body {
+    background: linear-gradient(to right, #F1FAEE,#F1FAEE 25%,#ef8453 25%,#ef8453 100%);
+    font-family: 'Molengo', sans-serif;
 }
-.home-page-content{
-  box-sizing: border-box; 
-  width: 10px; 
-  font-size: 21px;
-  text-align: left;
+h1{
+    box-sizing: border-box;
+    width: 400px;
+    position: fixed;
+    top: 130px;
+    left: 45px;
+    font-size: 50px;
+}
+#quote{
+    box-sizing: border-box;
+    width: 300px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: left;
+    position: fixed;
+    bottom: 120PX;
+    left: 80px;
+    
+   }
+#author{
+    box-sizing: border-box;
+    width: 100px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    bottom: 100PX;
+    left: 280px;
+    
 
 }
 
 .container{
     display: flex;
     justify-content: flex-end;
-    flex: 1;
-    
-    
+    align-items: flex-start;
+    height: 6000px;
 }
 .link-box1 {
     box-sizing: border-box;
-    color:white;
+    color:#F1FAEE;
+    border: transparent;
+    border-radius: 5px;
     font-size: 20px;
     font-family: 'Noto Serif', serif;
     text-align: center;
+    margin: 10px 10px 10px 10px;
     padding:15px;
-    width: 25%;
+    width: 23.5%; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 18px;
     
-}
+}   
 .link-box2 {
     box-sizing: border-box;
-    color:white;
+    color:#F1FAEE;
+    border: transparent;
+    border-radius: 5px;
     font-size: 20px;
     font-family: 'Noto Serif', serif;
     text-align: center;
+    margin: 10px 10px 10px 10px;
     padding:15px;
-    width: 25%;
+    width: 13.9%; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 18px;
     
 }
 
+a:link {
+    text-decoration: none;
+    }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:active {
+    text-decoration: underline;
+  }
 .box1 { 
-    background: #c56cf0; 
+    background: #1c2541; 
 }
 .box2 { 
-    background: #f1c40f; 
+    background: #254E70; 
 }
 .box3 { 
-    background: #2ed573; 
+    background: #2D728F; 
 }
-.box4 { 
-    background: #1e90ff; 
-}
-.box5{
-    background: #EAE2B7;
-}
-.box6{
-    background: #FF9F1C;
-}
-.box7{
-    background: #606C38;
-}
-.box8{
-    background: #197278;
+.box4{
+    background: #3B8EA5;
 }
 
-
-#left-panel{
-    background-color: #F1FAEE;
-    width: 450px;
-    text-align: left;
-    font-size: 30px;
-    padding: 250px 30px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-   
- }
- 
- 
- #quote{
-     font-style: italic;
-     font-size: 16px;
-     text-align: center;
-     position: relative;
-     bottom: -350PX;
-     left: 10px;
-     
-    }
- 
-#right-panel{
-    background-color: #ef8453;
-    width: 100%;
-    height: 100%;
-    padding: 240px 200px;
-    position: relative;
-    top:0;
-    right: 0;
-    left: 502px;
-    bottom: 0;
- }
-.child-one{
-    
+.box5 { 
+    background: #64B6AC; 
 }
-.child-two{
-   
-.child-three{
-    
+
+#main-contents{
+    box-sizing: border-box;
+    width: 700px;
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    font-size: 20px;
+}
